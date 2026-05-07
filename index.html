@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>RINUE</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont 연결-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Solid:wght@100;300;400;900&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS 연결 -->
+    <!-- AOS는 transform과 함께 사용할 수 없음 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css 연결-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 파비콘 연결 -->
+    <link rel="shortcut icon" href="./images/android-icon-36x36.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- header ----------------------------------------------------->
+        <div id="header">
+
+            <div class="inner_header">
+                <h1 class="logo">
+                    <a href="./index.html">
+                        <img src="./images/main/1header/image66.png" alt="RINUE">
+                    </a>
+                </h1>
+                <ul class="gnb">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">COLLECTION</a></li>
+                    <li><a href="#">COMMUNITY</a></li>
+                </ul>
+                <ul class="icon">
+                    <li>
+                        <a href="#">
+                            <img src="./images/main/1header/ph_magnifying-glass-light.png" alt="search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/main/1header/proicons_person-2.png" alt="login" class="icon_person">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/main/1header/majesticons_shopping-cart-line.png" alt="cart">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main_banner">
+                <h1 class="main_h1" data-aos="fade-down" data-aos-duration="1000">IN YOUR RINUE</h1>
+                <h2 class="main_h2" data-aos="fade-up" data-aos-duration="1000">Rest. Renew. Rise</h2>
+                <button class="main_button"><a href="#">바로가기</a></button>
+            </div>
+
+        </div>
+        <!-- header ----------------------------------------------------->
+
+
+        <!-- 브랜드 소개 문구 ------------------------------------------>
+        <p class="brand_text" data-aos="fade-up" data-aos-duration="1500">We hope RINUE becomes a quiet sanctuary where
+            rest turns into renewal.
+            <br>A place that helps you pause, restore, and rise again for tomorrow.
+        </p>
+
+
+        <!-- BEST ------------------------------------------------------->
+        <div id="best">
+            <h1 data-aos="fade-down" data-aos-duration="1000">BEST</h1>
+
+            <div class="inner_best">
+                <ul class="best_menu" data-aos="fade-right" data-aos-duration="1000">
+                    <li>
+                        <a href="#">NUE</a>
+                    </li>
+                    <li>
+                        <a href="#">COCOA</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active">AURA</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOOM</a>
+                    </li>
+                    <li>
+                        <a href="#">HUSH</a>
+                    </li>
+                </ul>
+
+                <div class="best_main" data-aos="fade-up" data-aos-duration="1000">
+                    <span class="number">4</span>
+                    <h2>COCOA</h2>
+                    <!-- <a href="#"><img src="./images/main/2best/image 67.png" alt="COCOA"></a> -->
+                    <div class="main_img_wrap">
+                        <a href="#best">
+                            <img src="./images/main/2best/image 67.png" alt="COCOA">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 🔥 JS에서 썸네일 자동 생성됨 -->
+                <ul class="best_item" data-aos="fade-left" data-aos-duration="1000"></ul>
+
+            </div>
+
+            <div class="best_p" data-aos="fade-up-left" data-aos-duration="1000">
+                <h3>COCOA
+                    <br>PAJAMA
+                </h3>
+                <h4>코코아 파자마<br>(S~XXL)</h4>
+                <div class="best_button">
+                    <p>View more</p>
+                    <a href="#best" class="more_btn">→</a>
+                </div>
+            </div>
+        </div>
+        <!-- BEST ------------------------------------------------------->
+
+
+        <!-- banner ------------------------------------------------------->
+        <div class="banner">
+            <div class="banner1" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#banner">
+                    <h3>나를 감싸는 첫 번째 쉼</h3>
+                    <p>침구, 베개, 홈웨어까지<br><span>RINUE</span>의 시그니처 아이템을 만나보세요.</p>
+                </a>
+            </div>
+            <div class="banner2" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#banner">
+                    <h3>포근한 밤을 위한 특별한 혜택</h3>
+                    <p>지금 시즌 한정 혜택으로<br>더 가볍게 <span>RINUE</span>를 시작해보세요.</p>
+                </a>
+            </div>
+        </div>
+        <!-- banner ------------------------------------------------------->
+
+
+        <!-- new ------------------------------------------------------->
+        <div id="new" data-aos="fade-up">
+            <div class="new_inner">
+
+                <div class="new_top">
+                    <h1 data-aos="fade-down" data-aos-duration="500">NEW</h1>
+
+                    <ul class="new_menu">
+                        <li data-aos="fade-up" data-aos-duration="1000">
+                            <a href="#" class="active">Pillow</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-duration="1500">
+                            <a href="#">Duvet</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-duration="2000">
+                            <a href="#">Pajama</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-duration="2500">
+                            <a href="#">Slipper</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="new_item">
+                    <li data-aos="fade-right" data-aos-duration="500">
+                        <a href="#new">
+                            <div class="new_box">
+                                <img src="./images/main/3new/image74.png" alt="new" class="new_img">
+                                <img src="./images/main/3new/hover/image75.png" alt="new" class="new_hover">
+                            </div>
+                            <p>NUE Pillow</p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-right" data-aos-duration="1000">
+                        <a href="#new">
+                            <div class="new_box">
+                                <img src="./images/main/3new/Rectangle51.png" alt="new" class="new_img">
+                                <img src="./images/main/3new/hover/image78.png" alt="new" class="new_hover">
+                            </div>
+                            <p>AURA Pillow</p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-right" data-aos-duration="1500">
+                        <a href="#new">
+                            <div class="new_box">
+                                <img src="./images/main/3new/image76.png" alt="new" class="new_img">
+                                <img src="./images/main/3new/hover/image91.png" alt="new" class="new_hover">
+                            </div>
+                            <p>BLOOM Pillow</p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-right" data-aos-duration="2000">
+                        <a href="#new">
+                            <div class="new_box">
+                                <img src="./images/main/3new/Rectangle53.png" alt="new" class="new_img">
+                                <img src="./images/main/3new/hover/image92.png" alt="new" class="new_hover">
+                            </div>
+                            <p>HUSH Pillow</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- new ------------------------------------------------------->
+
+
+        <!-- sellection ------------------------------------------------------->
+        <div id="sellection">
+            <h1 data-aos="fade-down" data-aos-duration="500">SELLECTION</h1>
+
+            <div class="sellec_inner">
+
+                <div class="sellec_left">
+                    <img src="./images/main/4sellection/Rectangle58.png" alt="selletion" data-aos="fade-down"
+                        data-aos-duration="500">
+                    <button class="sel_btn1" data-img="image1" data-aos="flip-left" data-aos-duration="500">+</button>
+                    <button class="sel_btn2" data-img="image2" data-aos="flip-left" data-aos-duration="1000">+</button>
+                    <button class="sel_btn3" data-img="image3" data-img="image2" data-aos="flip-left"
+                        data-aos-duration="1500">+</button>
+                    <button class="sel_btn4" data-img="image4" data-img="image2" data-aos="flip-left"
+                        data-aos-duration="2000">+</button>
+                    <button class="sel_btn5" data-img="image5" data-img="image2" data-aos="flip-left"
+                        data-aos-duration="2500">+</button>
+                    <button class="sel_btn6" data-img="image6" data-img="image2" data-aos="flip-left"
+                        data-aos-duration="3000">+</button>
+                </div>
+
+                <div class="sellec_right">
+                    <div class="sel_img" data-aos="fade-down" data-aos-duration="1000">
+                        <img src="./images/main/4sellection/sel/Rectangle381.png" alt="sellection"
+                            class="img image1">
+                        <img src="./images/main/4sellection/sel/Rectangle382.png" alt="sellection"
+                            class="img image2">
+                        <img src="./images/main/4sellection/sel/Rectangle383.png" alt="sellection"
+                            class="img image3">
+                        <img src="./images/main/4sellection/sel/Rectangle384.png" alt="sellection"
+                            class="img image4">
+                        <img src="./images/main/4sellection/sel/Rectangle385.png" alt="sellection"
+                            class="img image5">
+                        <img src="./images/main/4sellection/sel/Rectangle380.png" alt="sellection"
+                            class="img image6 active">
+                    </div>
+
+                    <div class="sel_text" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="text image1">
+                            <h2>NUE <span>침구</span></h2>
+                            <p><span>포근한 하루의 마무리</span></p>
+                        </div>
+                        <div class="text image2">
+                            <h2>NUE <span>포인트 쿠션</span></h2>
+                            <p><span>공간에 포인트를 더하는 따뜻한 매듭</span></p>
+                        </div>
+                        <div class="text image3">
+                            <h2>NUE <span>블랭킷</span></h2>
+                            <p><span>따뜻함을 가볍게 걸치는 순간</span></p>
+                        </div>
+                        <div class="text image4">
+                            <h2>NUE <span>쿠션</span></h2>
+                            <p><span>포근한 하루의 마무리</span></p>
+                        </div>
+                        <div class="text image5">
+                            <h2>NUE <span>플로어 램프</span></h2>
+                            <p><span>공간을 은은하게 채우는 빛</span></p>
+                        </div>
+                        <div class="text image6 active">
+                            <h2>NUE <span>소파 & 스툴</span></h2>
+                            <p><span>포근하게 감싸안아지는 공간을 위한</span></p>
+                        </div>
+                    </div>
+
+                    <button data-img="image2" data-aos="flip-left" data-aos-duration="1000"><a href="#sellection">View
+                            more</a></button>
+                </div>
+
+            </div>
+        </div>
+        <!-- sellection ------------------------------------------------------->
+
+
+        <!-- collection ------------------------------------------------------->
+        <div id="collection">
+
+            <div class="col_top">
+                <h1 data-aos="fade-down" data-aos-duration="500">COLLECTION</h1>
+                <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">View more <a href="#collection"
+                        class="more_btn">→</a></p>
+            </div>
+
+            <ul>
+                <li data-aos="fade-right" data-aos-duration="500">
+                    <a href="#collection">
+                        <div class="img_box">
+                            <img src="./images/main/5collection/Rectangle65.png" alt="collection">
+                        </div>
+                        <p>하루를 덮는 포근함</p>
+                    </a>
+                </li>
+                <li data-aos="fade-right" data-aos-duration="1000">
+                    <a href="#collection">
+                        <div class="img_box">
+                            <img src="./images/main/5collection/Rectangle68.png" alt="collection">
+                        </div>
+                        <p>가장 나다운 휴식</p>
+                    </a>
+                </li>
+                <li data-aos="fade-right" data-aos-duration="2000">
+                    <a href="#collection">
+                        <div class="img_box">
+                            <img src="./images/main/5collection/Rectangle67.png" alt="collection">
+                        </div>
+                        <p>햇살이 머무는 침실</p>
+                    </a>
+                </li>
+                <li data-aos="fade-right" data-aos-duration="3000">
+                    <a href="#collection">
+                        <div class="img_box">
+                            <img src="./images/main/5collection/Rectangle71.png" alt="collection">
+                        </div>
+                        <p>나만의 조용한 시간</p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- collection ------------------------------------------------------->
+
+
+        <!-- sns ------------------------------------------------------->
+        <div id="sns">
+            <p data-aos="fade-down" data-aos-duration="500">@in_my_rinue</p>
+            <h1 data-aos="fade-up" data-aos-duration="500">Instagram</h1>
+
+            <ul>
+                <li data-aos="zoom-in" data-aos-duration="500">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle79.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle78.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle81.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="2000">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle80.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li data-aos="zoom-in" data-aos-duration="2000">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle89.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle85.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle90.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+                <li  data-aos="zoom-in" data-aos-duration="500">
+                    <a href="#sns">
+                        <div class="sns_box">
+                            <img src="./images/main/6sns/Rectangle86.png" alt="sns">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- sns ------------------------------------------------------->
+
+
+        <!-- footer ------------------------------------------------------->
+        <div id="footer">
+            <div class="footer_inner">
+
+                <h1 data-aos="fade-up" data-aos-duration="1000"><a href="#footer"><img src="./images/main/bottom_logo.png" alt="logo"></a></h1>
+
+                <ul>
+                    <li><a href="#footer">서비스 이용약관</a></li>
+                    <li><a href="#footer">개인정보처리방침</a></li>
+                    <li><a href="#footer">사업자정보확인</a></li>
+                </ul>
+
+                <p>상호 : 주식회사리누에 &nbsp;&nbsp;&nbsp; 대표 : 대표자 &nbsp;&nbsp;&nbsp; 개인정보 보호 책임자 : 책임자</p>
+                <p>TEL : 051-123-4567 &nbsp;&nbsp;&nbsp; FAX : 051-123-4567 &nbsp;&nbsp;&nbsp; E-Mail : info@rinue.com
+                    &nbsp;&nbsp;&nbsp; 사업자등록번호 : 123-45-67890 &nbsp;&nbsp;&nbsp; 통신판매업신고번호 : 제 2026-부산진구-0001 <a
+                        href="#">[사업자정보확인]</a></p>
+                <p>본사 : 부산광역시 가나구 다라로 111-2 &nbsp;&nbsp;&nbsp; 물류센터 : 부산광역시 마바구 사아로 222-3(자차동)</p>
+
+                <div class="foot1">
+                    <h2>고객센터 <span>051-111-2222</span></h2>
+                    <h2>운영시간 : 평일 10:00 - 17:00 | 점심시간 : 12:00 - 13:00</h2>
+                    <h2>주말 및 공휴일은 휴무입니다.</h2>
+                </div>
+
+                <h3>Copyright © RINUE, All rights reserved.</h3>
+            </div>
+        </div>
+        <!-- footer ------------------------------------------------------->
+
+    </div>
+
+
+    <!-- jQuery 오픈소스 -->
+    <script src="./js/jquery-4.0.0.min.js"></script>
+
+    <!-- js 구문 파일 연결 -->
+    <script src="./js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
